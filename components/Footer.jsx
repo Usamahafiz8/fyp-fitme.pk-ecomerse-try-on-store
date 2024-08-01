@@ -14,10 +14,10 @@ export default function Footer() {
 			<div className='max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8'>
 				<div className='flex items-center justify-between'>
 					<p className='mt-2 text-base text-gray-300 md:mt-0'>
-						&copy; 2022 Nextone. All rights reserved.
+						&copy; 2022 Fitme. All rights reserved.
 					</p>
 					<div>
-						<a href='https://github.com/jainpranayr/nextzone'>
+						<a href='https://github.com/Usamahafiz8/fyp-fitme.pk-ecomerse-try-on-store'>
 							<GithubIcon className='w-6 h-6 text-gray-400 hover:text-gray-300 cursor-pointer' />
 						</a>
 					</div>
