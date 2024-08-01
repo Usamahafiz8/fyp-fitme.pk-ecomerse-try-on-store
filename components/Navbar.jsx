@@ -69,7 +69,7 @@ const Navbar = ({ sticky }) => {
 											height={32}
 										/>
 										<span className='text-white hidden md:inline'>
-											Nextzone
+											Fit Me
 										</span>
 									</div>
 								</NextLink>
@@ -96,6 +96,19 @@ const Navbar = ({ sticky }) => {
 													'px-3 py-2 rounded-md text-sm font-medium cursor-pointer'
 												)}>
 												Shop Now
+											</span>
+										</NextLink>
+										
+										<NextLink href='/try-on' passHref>
+											<span
+												className={classNames(
+													router.pathname ===
+														'/try-on'
+														? 'bg-gray-900 text-white'
+														: 'text-gray-300 hover:bg-gray-700 hover:text-white',
+													'px-3 py-2 rounded-md text-sm font-medium cursor-pointer'	
+												)}>
+												Try On 
 											</span>
 										</NextLink>
 									</div>
